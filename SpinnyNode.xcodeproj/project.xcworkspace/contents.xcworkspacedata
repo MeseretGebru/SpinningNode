@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:tititi.xcodeproj">
+      location = "self:/Users/C4Q/Desktop/My playground/tititi/SpinnyNode.xcodeproj">
    </FileRef>
 </Workspace>

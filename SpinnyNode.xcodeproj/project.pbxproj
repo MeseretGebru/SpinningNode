@@ -15,10 +15,11 @@
 		81244E6E1FA1964200334762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81244E6C1FA1964200334762 /* Main.storyboard */; };
 		81244E701FA1964200334762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81244E6F1FA1964200334762 /* Assets.xcassets */; };
 		81244E731FA1964200334762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81244E711FA1964200334762 /* LaunchScreen.storyboard */; };
+		8125C67D2098D42600203782 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8125C67C2098D42600203782 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		81244E5F1FA1964200334762 /* tititi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tititi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81244E5F1FA1964200334762 /* SpinnyNode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpinnyNode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81244E621FA1964200334762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81244E641FA1964200334762 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		81244E661FA1964200334762 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		81244E6F1FA1964200334762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81244E721FA1964200334762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81244E741FA1964200334762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8125C67C2098D42600203782 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,8 @@
 		81244E561FA1964200334762 = {
 			isa = PBXGroup;
 			children = (
-				81244E611FA1964200334762 /* tititi */,
+				8125C67C2098D42600203782 /* Default-568h@2x.png */,
+				81244E611FA1964200334762 /* SpinningNode */,
 				81244E601FA1964200334762 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +55,12 @@
 		81244E601FA1964200334762 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81244E5F1FA1964200334762 /* tititi.app */,
+				81244E5F1FA1964200334762 /* SpinnyNode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81244E611FA1964200334762 /* tititi */ = {
+		81244E611FA1964200334762 /* SpinningNode */ = {
 			isa = PBXGroup;
 			children = (
 				81244E621FA1964200334762 /* AppDelegate.swift */,
@@ -70,15 +73,15 @@
 				81244E711FA1964200334762 /* LaunchScreen.storyboard */,
 				81244E741FA1964200334762 /* Info.plist */,
 			);
-			path = tititi;
+			path = SpinningNode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81244E5E1FA1964200334762 /* tititi */ = {
+		81244E5E1FA1964200334762 /* SpinnyNode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81244E771FA1964200334762 /* Build configuration list for PBXNativeTarget "tititi" */;
+			buildConfigurationList = 81244E771FA1964200334762 /* Build configuration list for PBXNativeTarget "SpinnyNode" */;
 			buildPhases = (
 				81244E5B1FA1964200334762 /* Sources */,
 				81244E5C1FA1964200334762 /* Frameworks */,
@@ -88,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = tititi;
+			name = SpinnyNode;
 			productName = tititi;
-			productReference = 81244E5F1FA1964200334762 /* tititi.app */;
+			productReference = 81244E5F1FA1964200334762 /* SpinnyNode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81244E5A1FA1964200334762 /* Build configuration list for PBXProject "tititi" */;
+			buildConfigurationList = 81244E5A1FA1964200334762 /* Build configuration list for PBXProject "SpinnyNode" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81244E5E1FA1964200334762 /* tititi */,
+				81244E5E1FA1964200334762 /* SpinnyNode */,
 			);
 		};
 /* End PBXProject section */
@@ -137,6 +140,7 @@
 				81244E701FA1964200334762 /* Assets.xcassets in Resources */,
 				81244E731FA1964200334762 /* LaunchScreen.storyboard in Resources */,
 				81244E671FA1964200334762 /* Actions.sks in Resources */,
+				8125C67D2098D42600203782 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +291,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tititi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpinningNode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = c4q.tititi;
+				PRODUCT_BUNDLE_IDENTIFIER = c4q.SpinnyNode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,9 +305,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = tititi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpinningNode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = c4q.tititi;
+				PRODUCT_BUNDLE_IDENTIFIER = c4q.SpinnyNode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81244E5A1FA1964200334762 /* Build configuration list for PBXProject "tititi" */ = {
+		81244E5A1FA1964200334762 /* Build configuration list for PBXProject "SpinnyNode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81244E751FA1964200334762 /* Debug */,
@@ -322,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81244E771FA1964200334762 /* Build configuration list for PBXNativeTarget "tititi" */ = {
+		81244E771FA1964200334762 /* Build configuration list for PBXNativeTarget "SpinnyNode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81244E781FA1964200334762 /* Debug */,
